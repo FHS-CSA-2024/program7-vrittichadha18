@@ -30,7 +30,7 @@ public class Program7 {
        decimalSchruteBucks = (int)(decimalSchruteBucks*100);
        decimalSchruteBucks = (double)(decimalSchruteBucks/100);
        
-       System.out.println("Decimal-schrute-bucks: " + decimalSchruteBucks);
+       System.out.println("Decimal-schrute-bucks: " + "$" + decimalSchruteBucks);
    }
 }
 //Paste console output below:
@@ -44,5 +44,5 @@ Enter klevins:
 Enter stanley-nickels: 
 9
 
-Decimal-schrute-bucks: 7.89
+Decimal-schrute-bucks: $7.89
 */
