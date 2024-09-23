@@ -5,9 +5,9 @@ public class Program7 {
    public static void main(String[]args){
        Scanner myScanner = new Scanner (System.in);
        
-       double schruteBucks = 0.0;
+       double schrute_Bucks = 0.0;
        System.out.println("Enter schrute-bucks: ");
-       schruteBucks = myScanner.nextDouble();
+       schrute_Bucks = myScanner.nextDouble();
        System.out.println();
        
        double klevins = 0.0;
@@ -15,22 +15,22 @@ public class Program7 {
        klevins = myScanner.nextDouble();
        System.out.println();
        
-       double stanleyNickels = 0.0;
+       double stanley_Nickels = 0.0;
        System.out.println("Enter stanley-nickels: ");
-       stanleyNickels = myScanner.nextDouble();
+       stanley_Nickels = myScanner.nextDouble();
        System.out.println();
        
-       double decimalSchruteBucks = 0.0;
+       double decimal_Schrute_Bucks = 0.0;
        
        klevins = klevins/20.0;
-       stanleyNickels = stanleyNickels/240.0;
+       stanley_Nickels = stanley_Nickels/240.0;
        
-       decimalSchruteBucks = (schruteBucks+klevins+stanleyNickels)+0.005;
+       decimal_Schrute_Bucks = (schrute_Bucks+klevins+stanley_Nickels)+0.005;
        
-       decimalSchruteBucks = (int)(decimalSchruteBucks*100);
-       decimalSchruteBucks = (double)(decimalSchruteBucks/100);
+       decimal_Schrute_Bucks = (int)(decimal_Schrute_Bucks*100);
+       decimal_Schrute_Bucks = (double)(decimal_Schrute_Bucks/100);
        
-       System.out.println("Decimal-schrute-bucks: " + "$" + decimalSchruteBucks);
+       System.out.println("Decimal-schrute-bucks: " + "$" + decimal_Schrute_Bucks);
    }
 }
 //Paste console output below:
